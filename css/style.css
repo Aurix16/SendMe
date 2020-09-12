@@ -1,3 +1,7 @@
 .nav-item, .navbar-brand{
     cursor: pointer;
 }
+
+.footer-icon:hover{
+    color: #229933;
+}
