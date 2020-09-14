@@ -15,3 +15,6 @@ Steps:
 Decided to take on a fun personal project, I know there are templates for this but the goal is to learn so I ditched templates this time.
 
 Feel free to leave suggestions/add your improvements. Provided they don't conflict, I'll be happy to merge.
+
+References
+Full slider - https://startbootstrap.com/snippets/full-slider/
