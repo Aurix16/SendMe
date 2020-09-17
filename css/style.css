@@ -6,6 +6,15 @@
     color: #229933;
 }
 
+.btn-custom{
+    background-color: #03a01f !important;
+    color:#ffffff !important;
+}
+
+.btn-custom:hover{
+    background-color: #118822 !important;
+}
+
 .carousel-item {
     height: 100vh;
     min-height: 350px;

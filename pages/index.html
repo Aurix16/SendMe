@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SendMe.com</title>
 
-    <link rel="stylesheet" href="../css/style.css">
+    
     <link rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/f2b9dd0133.js" crossorigin="anonymous"></script>
 
 </head>
@@ -15,7 +16,7 @@
 
     <nav class=" navbar navbar-expand-lg navbar-light " >
         <header>
-            <h1 class="navbar-brand py-3">SendMe.com</h1>
+            <h1 class="navbar-brand py-3 mx-5 pl-1">SendMe.com</h1>
         </header>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,8 +31,8 @@
                 <li class="nav-item nav-link py-3 mr-lg-3">Contact Us </li>
             </ul>
 
-                <button type="button" class="btn mb-2 mr-2 py-lg-2 px-lg-4" style="background-color: #03a01f; color: white;">Login</button>
-                <button type="button" class="btn mb-2 mr-2 py-lg-2 px-lg-4" style="background-color: #03a01f; color: white;">Register</button>
+                <button type="button" class="btn btn-custom mb-2 mr-2 py-lg-2 px-lg-4" >Login</button>
+                <button type="button" class="btn btn-custom mb-2 mr-2 py-lg-2 px-lg-4" >Register</button>
             
             
         </div>
@@ -80,13 +81,89 @@
           </div>
       </header>
     </section>
-<!--Card Area-->
+  
+  <!--About Us--> 
     <section>
-      <br/>
       <p class="text-center">
-        <h1 class="mx-4">Easy Steps</h1> 
+        <h1 class="mx-5 mt-5 pl-2">About Us</h1> 
       </p>
-      <div class="card-deck mx-3">
+      <div class="card-deck mx-5 mb-5">
+        <div class="card">
+          <img class="card-img-top" src="https://source.unsplash.com/random/1920x1080" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Who We Are</h4>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,  At vero eos et accusam et justo duo dolores et ea rebum.  Lorem ipsum dolor sit amet,  no sea takimata sanctus est Lorem ipsum dolor sit amet.  Stet clita kasd gubergren,  no sea takimata sanctus est Lorem ipsum dolor sit amet.  no sea takimata sanctus est Lorem ipsum dolor sit amet.  no sea takimata sanctus est Lorem ipsum dolor sit amet.  sed diam voluptua.  
+            </p>
+            <a href="#!" class="btn btn-custom" data-toggle="modal" data-target="#whoWeAre" >Read More</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://source.unsplash.com/random/1920x1080" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">What We Do</h4>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet,At vero eos et accusam et justo duo dolores et ea rebum.  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,  At vero eos et accusam et justo duo dolores et ea rebum.  sed diam voluptua.  At vero eos et accusam et justo duo dolores et ea rebum.  Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet,  Stet clita kasd gubergren,  no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+            <a href="#!" class="btn btn-custom" data-toggle="modal" data-target="#whatWeDo">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Modal for Who we are-->
+      <section>
+        <div class="modal fade" id="whoWeAre" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModal3Label">Who We Are</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!--Modal for What we do-->
+      <section>
+        <div class="modal fade" id="whatWeDo" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModal3Label">What We Do</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+  <!--Card Area-->
+    <section>
+      <p class="text-center">
+        <h1 class="mx-5 mt-5 pl-2">Easy Steps</h1> 
+      </p>
+      <div class="card-deck mx-5 mb-5">
         <div class="card">
           <img class="card-img-top" src="https://source.unsplash.com/bF2vsubyHcQ/1920x1080" alt="Card image cap">
           <div class="card-body">
@@ -121,8 +198,8 @@
           </div>
         </div>
       </div>
-      <br/>
-      <div class="card-deck mx-3">
+
+      <div class="card-deck mx-5 mb-5">
         <div class="card">
           <img class="card-img-top" src="https://source.unsplash.com/bF2vsubyHcQ/1920x1080" alt="Card image cap">
           <div class="card-body">
