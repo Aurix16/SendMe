@@ -15,6 +15,10 @@
     background-color: #118822 !important;
 }
 
+.inputCustom{
+    height: 50px;
+}
+
 .carousel-item {
     height: 100vh;
     min-height: 350px;
