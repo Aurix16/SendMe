@@ -1,6 +1,9 @@
 .nav-item, .navbar-brand{
     cursor: pointer;
 }
+.navItem{
+    color: #ffffff !important;
+}
 
 .footer-icon:hover{
     color: #229933;
@@ -17,6 +20,13 @@
 
 .inputCustom{
     height: 50px;
+    border-radius: 15px;
+}
+
+.form-control:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 .carousel-item {
