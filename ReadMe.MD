@@ -18,3 +18,4 @@ Feel free to leave suggestions/add your improvements. Provided they don't confli
 
 References
 Full slider - https://startbootstrap.com/snippets/full-slider/
+card slider - https://www.codeply.com/p/SjT9H9IPZS
