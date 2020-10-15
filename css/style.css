@@ -101,8 +101,8 @@ a:hover{
   /* Testimonials */
   /* equal card height */
 .row-equal > div[class*='col-'] {
-  display: flex;
-  flex: 1 0 auto;
+  /* display: flex; */
+  /* flex: 0 auto; */
 }
 
 .row-equal .card {
@@ -110,9 +110,9 @@ a:hover{
 }
 
 /* ensure equal card height inside carousel */
-.carousel-inner>.row-equal.active, 
-.carousel-inner>.row-equal.next, 
-.carousel-inner>.row-equal.prev {
+.carousel-inner_custom>.row-equal.active, 
+.carousel-inner_custom>.row-equal.next, 
+.carousel-inner_custom>.row-equal.prev {
   display: flex;
 }
 
@@ -120,7 +120,7 @@ a:hover{
 .carousel-inner>.row-equal.active.left, 
 .carousel-inner>.row-equal.active.right {
   opacity: 0.5;
-  display: flex;
+  /* display: flex; */
 }
 
 
