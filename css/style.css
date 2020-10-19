@@ -107,6 +107,7 @@ a:hover{
 
 .row-equal .card {
  width: 100%;
+ height: 500px;
 }
 
 /* ensure equal card height inside carousel */
@@ -114,6 +115,7 @@ a:hover{
 .carousel-inner_custom>.row-equal.next, 
 .carousel-inner_custom>.row-equal.prev {
   display: flex;
+  height: 100%;
 }
 
 /* prevent flicker during transition */
@@ -128,5 +130,11 @@ a:hover{
 .card-img-top-250 {
   max-height: 250px;
   overflow:hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  #testimonials {
+      display: none;
+  }
 }
   
