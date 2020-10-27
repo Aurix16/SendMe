@@ -19,3 +19,10 @@ Feel free to leave suggestions/add your improvements. Provided they don't confli
 References
 Full slider - https://startbootstrap.com/snippets/full-slider/
 card slider - https://www.codeply.com/p/SjT9H9IPZS
+
+What's left?
+-- Site is predominantly bootstrap
+-- Need to put in Javascript and create the user login and dashboard
+-- Need to use pictures and actual text (Basically fill in the framework)
+-- Space at the sides. Nedd to increase that
+-- Register/Logn should be a modal that flips depending on what you select
