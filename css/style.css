@@ -138,3 +138,7 @@ a:hover{
   }
 }
   
+
+.card-body>h2>a{
+  color: #03a01f ;
+}
