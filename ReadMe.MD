@@ -24,5 +24,6 @@ What's left?
 -- Site is predominantly bootstrap
 -- Need to put in Javascript and create the user login and dashboard
 -- Need to use pictures and actual text (Basically fill in the framework)
--- Space at the sides. Nedd to increase that
+-- Space at the sides. Might need to increase that
 -- Register/Logn should be a modal that flips depending on what you select
+-- The responsivity isn't good yet, need to fix it particularly the "cards" -- Easy Steps
